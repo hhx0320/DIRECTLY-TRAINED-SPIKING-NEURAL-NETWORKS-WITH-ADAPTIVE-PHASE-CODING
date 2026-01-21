@@ -1,5 +1,5 @@
 # DIRECTLY-TRAINED-SPIKING-NEURAL-NETWORKS-WITH-ADAPTIVE-PHASE-CODING
-文件主要包含shd分类网络的具体实现，以及qkformer修改。
+文件主要包含shd分类网络的具体实现，以及qkformer的具体修改。
 
 其中SHD与论文中描述的5-mlp结构有较大差距，将数据折叠后，放入了卷积网络中（具体见代码）。
 
