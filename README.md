@@ -5,7 +5,7 @@
 
 现有的shd-sota通过rsnn或delay等特殊设计已达到96%了。
 
-虽然本实现并未超sota,但其具体实现，在纯feedforward的基础Lif实现下，该网络准确率可达89.33，为基础LIF神经元的sota。
+虽然本实现并未超sota,但其具体实现，在纯feedforward的基础Lif实现下，该网络准确率可达89.33(论文中82为5层mlp下的结果)，为基础LIF神经元的sota。
 
 其中qkformer的具体修改,可见model文件中101行开始的具体的LIF神经元代码(仅对原网络神经元函数进行了重写)。
 
